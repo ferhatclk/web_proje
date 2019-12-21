@@ -1,0 +1,443 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin:0px;
+	padding:0px;
+ }
+ body{
+	 font-family:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+	 font-size:16px;
+	
+     }
+ #header{
+	 width:100%;
+	 height:300px;
+	 background-image:url(2.png);	 
+        }
+ #logo{
+	 height:228px;
+	 width:900px;
+	 margin-left:auto;
+	 margin-right:auto;
+       }
+
+ #logo h1{
+	 color:#666;
+	 letter-spacing:8px;
+     font-family: 'Playball', cursive;
+	 font-size:50px;
+	 padding-top:100px;
+         }
+  #logo h3{
+	 color:#666;
+	 letter-spacing:8px;
+     font-family: 'Playball', cursive;
+	 font-size:30px;
+         }
+ .logo_rengi{
+	 color:#066; 
+			}
+#menu{
+	 width:900px;
+	 height:72px;
+	 margin-right:auto;
+	 margin-left:auto;
+	 padding-bottom:0px;
+	 background-image:inherit;   
+	  }
+ #menu ul{
+	 list-style:none;
+	 margin-left:80px;
+	 padding:0px;
+         }
+ #res-menu{
+	 display:none;
+ }
+ #menu label{
+	 display:none;
+	 width:45px;
+	 height:45px;
+	 padding:0px;
+	 float:left;
+	 
+ }
+ #menu label:hover{
+	 cursor:pointer;
+	 background-color:rgb(51,51,51);
+	 border-radius:5px;
+ }
+
+ #menu ul li{
+	 float:left;
+	 position:relative;
+	 text-align:center;
+     font-family: 'Playball', cursive;
+	 font-size:25px; 
+		}
+#menu li a {
+display:block;
+padding:10px 20px;
+line-height:1.2em;
+color:#333;
+text-decoration:none;
+border-radius:20px;
+}
+#menu a:hover {
+text-decoration:none;
+background:#595959;
+}
+#menu li ul {
+border: 4px solid #033;
+background:#999;
+position:absolute;
+left:-9999em;
+top:45px;
+margin-left:auto;
+border-radius:25px;
+}
+ #menu ul  li:hover ul {
+left:0;
+}
+ #menu li ul li {
+width:auto;
+font-size:20px;
+text-align:center;
+        }
+ #menu li ul a {
+border:none;
+text-decoration:none;
+}
+ #menu li ul a:hover {
+background:rgba(0,0,0,0.2);
+}
+
+
+ #content{
+	 width:100%;
+	 height:auto;
+	 margin-left:auto;
+	 margin-right:auto;
+	 padding:4%;
+          }
+ #haberler {
+	 width:20%;
+	 height:900px;
+	 float:left;
+	 margin-top:20px;
+	 margin-bottom:20px;
+	 padding-top:20px;
+	 padding-right:2%;
+	 padding-left:2%;
+	 background-color:#033;
+	 color:#CCC;
+	 border-radius:20px;
+            }
+ #kutu1{
+	 width:auto;
+	 height:200px;
+	 
+		}
+ #resim{
+	 width:auto;
+	 height:100px;
+		}
+ #resim img{
+	 width:auto; 
+	 height:100px;
+	 }
+ #yazi{
+	 width:auto;
+	 height:auto;
+	   }
+ #yazi a{
+	 text-decoration:none;
+	 color:#CCC;}
+
+ #icerik{
+	 width:60%;
+	 height:725px;
+	 float:left;
+	 margin-top:80px;
+	 padding:20px;
+      }
+ #duyurular{
+	 width:20%;
+	 height:900px;
+	 float:left;
+	 margin-top:20px;
+	 margin-bottom:20px;
+	 padding-top:20px;
+	 padding-right:2%;
+	 padding-left:2%;
+	 background-color:#033;
+	 color:#CCC;
+	 border-radius:20px;
+      }
+ 
+ .text{
+	 font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	 font-size:24px;
+	 width:60%;
+	 margin-left:auto;
+	 margin-right:auto;
+	 background-color:#CCC;
+	 color:#000;
+	 border-bottom-right-radius:50px;
+	 border-top-left-radius:50px;
+ }
+ .text p{
+	 width:auto;
+	 margin:20px;
+	 padding-left:20px;
+	 }
+ #sag video{
+	 width:60%;
+	 margin-left:auto;
+	 margin-right:auto;
+	 
+ }
+ .mySlides {display:none;}
+           
+ #footer{
+	 clear:both;
+	 background-color:#000;
+	 width:100%;
+	 height:270px;
+	 color:#FFF;
+	 margin-left: auto;
+	 margin-right: auto;
+ }
+ #footer_container{
+	 width:900px;
+	 height:200px;
+	 margin:30px auto;
+ }
+ #footer ul {
+	 list-style-type:none;
+	 margin:17px 0;
+	 padding:0px;
+	 }
+ #kutu {
+	  width:auto;
+	  height:125px; 
+	  float:left;
+	  padding:70px;
+	  }
+
+#footer ul li {
+	 float:left;
+	 font-family:tahoma;
+	 font-size:12px;
+	 margin-bottom:8px;
+	 clear:left;
+	 color:#949798;
+		  }
+ #footer ul li a {
+	 text-decoration:none;
+	 color:#999;
+                }
+  #form-iletisim{
+	 width:80%;
+	 height:700px;
+	 margin-left:auto;
+	 margin-right:auto;
+	 margin-top:35px;
+	 background-color:#999;
+	 text-align:center;
+	 border-radius:30px;
+                }
+ #form-iletisim h2{
+	 margin:20px;
+                }
+  #form-iletisim button{
+	  border: 1px solid black;
+	  border-radius:25px;
+	  background-color:#066;
+	  width:150px;
+	  height:40px;	 
+	                 }
+ .text-input{
+    width:60%;
+	display: block;
+    padding:10px;
+    line-height:1;
+    margin-bottom: 20px;
+    margin-left:20%;
+    font-size: 15px;
+    color: black;
+    background: white;
+    border: 1.5px solid black;
+	border-bottom-right-radius:25px;
+	border-top-right-radius:25px;
+	
+}
+				 
+ }
+@media (max-width:768px){
+	/*  tablet  */
+ #header{
+	 width:100%;
+	 height:300px;
+	 }
+ #logo{
+	 height:200px;
+	 width:500px;
+	 margin-left:auto;
+	 margin-right:auto;
+       }
+ #logo h1{
+	 letter-spacing:10px;
+	 font-size:40px;
+	 padding-top:100px;
+         }
+   #logo h3{
+	 letter-spacing:10px;
+	 font-size:25px;
+         }
+ #menu label{
+	 display:block;
+	 float:inherit;
+ }
+ #menu{
+	 position:absolute;
+	 background-color:#366;
+	 width:100%;
+	 height:50%;
+	 color:#CCC;
+	 margin-top:-100%;
+	 transition:all 0.5s;
+ }
+ #menu ul{
+	 display:flex;
+	 flex-direction:column; /*internetten alıntı*/
+	 
+	  }
+ .menu ul li ul{
+	 
+ }
+ #menu ul  li a{
+    display:block;
+	border-bottom:0;	
+}
+ #res-menu:checked ~ .menu{
+	 /*internetten alıntı*/
+	 margin:0px;
+ }
+ #content{
+	 width:100%;
+	 padding-top:35px;
+	  }
+  #haberler {
+	 width:20%;
+	 height:900px;
+	 float:left;
+            }
+  #kutu1{
+	 width:100%;
+	 padding-bottom:50px;
+	    
+		}
+ #resim img{
+	 width:auto; 
+	 height:100px;
+		}
+ #yazi{
+	 width:auto;
+	 height:auto;
+	 
+	   }
+ #icerik{
+	 width:60%;
+	 
+	 }
+ #duyurular {
+	width:20%;
+	height:900px;
+	float:right;
+	}	
+  #kutu {
+	  width:250px;
+	  height:125px; 
+	  float:left;
+	  padding:20px;
+	  }  
+}
+@media only screen and (max-width:620px) {
+  /*  telefon  */
+#header{
+	background-image:url(paper-1468878_1920.jpg);
+        }
+ #logo{
+	 height:200px;
+	 width:450px;
+	 margin-left:auto;
+	 margin-right:auto;
+       }
+ #logo h1{
+	 letter-spacing:10px;
+	 font-size:40px;
+	 padding-top:40px;
+         }         
+#haberler,#icerik,#duyurular {
+	clear:both;
+	width:100%;
+	}
+  #kutu1{
+	 width:100%;
+	 
+	}
+ #resim img{
+	 width:auto; 
+	 height:100px;
+	  padding-left:30px;
+	  padding-right:30px;
+		}
+ #yazi{
+	 width:auto;
+	 height:auto;
+	  padding-left:30px;
+	  padding-right:30px;
+	  padding-top:10px;
+
+	   }
+  #kutu {
+	  width:150px;
+	  height:125px; 
+	  float:left;
+	  padding:40px;
+	  }	
+  #menu label{
+	 display:block;
+	 float:inherit;
+ }
+ .menu{
+	 position:absolute;
+	 background-color:#366;
+	 width:100%;
+	 height:50%;
+	 color:#CCC;
+	 margin-top:-100%;
+	 transition:all 0.5s;
+ }
+ .menu ul{
+	 display:flex;
+	 flex-direction:column; /*internetten alıntı*/
+	 
+	  }
+ .menu ul li ul{
+	 display:inherit;	
+ }
+ #menu ul  li a{
+    display:block;
+	border-bottom:0;	
+}
+ #res-menu:checked ~ .menu{
+	 /*internetten alıntı*/
+	 margin:0px;
+ }
+}
+		
+		
+		
+		
+		
