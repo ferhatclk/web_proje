@@ -330,8 +330,7 @@ background:rgba(0,0,0,0.2);
 	 float:inherit;
  }
  #menu{
-	 position:absolute;
-	 background-color:#366;
+	 position:relative;
 	 width:50%;
 	 height:50%;
 	 color:#CCC;
@@ -339,6 +338,7 @@ background:rgba(0,0,0,0.2);
 	 transition:all 0.5s;
  }
  #menu ul{
+	 float:left;
 	 display:flex;
 	 flex-direction:column; /*internetten alıntı*/
 	 
@@ -456,6 +456,9 @@ background:rgba(0,0,0,0.2);
 	  }
  .menu ul li ul{
 	 display:inherit;	
+ }
+ .menu li:hover ul{
+	 display:none;
  }
  #menu ul  li a{
     display:block;
