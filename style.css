@@ -346,7 +346,7 @@ background:rgba(0,0,0,0.2);
 	 width:50%;
 	 height:50%;
 	 color:#CCC;
-	 margin-top:-100%;
+	 margin-left:-100%;
 	 transition:all 0.5s;
  }
  #menu ul{
@@ -375,18 +375,35 @@ background:rgba(0,0,0,0.2);
 	 height:900px;
 	 float:left;
             }
+ #haberler h3{
+	 
+ }
   #kutu1{
 	 width:100%;
-	 padding-bottom:50px;
+	 height:auto;
+	 padding-top:60px;
+		}
+	#kutu2{
+	 width:100%;
+	 height:auto;
+	 padding-top:50px;
+	    
+		}
+	#kutu3{
+	 width:100%;
+	 height:auto;
+	 padding-top:50px;
 	    
 		}
  #resim img{
 	 width:auto; 
 	 height:100px;
+	  padding-top:25px;
 		}
  #yazi{
 	 width:auto;
 	 height:auto;
+	
 	 
 	   }
  #icerik{
