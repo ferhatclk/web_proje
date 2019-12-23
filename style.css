@@ -37,85 +37,87 @@
  .logo_rengi{
 	 color:#066; 
 			}
-#menu{
-	 width:100%;
-	 height:72px;
-	 margin-right:auto;
-	 margin-left:auto;
-	 padding-bottom:0px;
-	 background-image:inherit;   
-	  }
- .menu{
-	 width:50%;
-	 position:relative;
-	 margin-right:auto;
-	 margin-left:auto;
- }
- #menu ul{
-	 list-style:none;
-	
-	 padding:0px;
-         }
- #res-menu{
-	 display:none;
- }
- #menu label{
-	 display:none;
-	 width:45px;
-	 height:45px;
-	 padding:0px;
-	 float:left;
-	 
- }
- #menu label:hover{
-	 cursor:pointer;
-	 background-color:rgb(51,51,51);
-	 border-radius:5px;
- }
-
- #menu ul li{
-	 float:left;
-	 position:relative;
-	 text-align:center;
-     font-family: 'Playball', cursive;
-	 font-size:25px; 
-		}
-#menu li a {
-display:block;
-padding:10px 20px;
-color:#333;
-text-decoration:none;
-border-radius:20px;
-}
-#menu a:hover {
-text-decoration:none;
-background:#595959;
-}
-#menu li ul {
-border: 4px solid #033;
-background:#999;
-position:absolute;
-left:-9999em;
-top:45px;
-margin-left:auto;
-border-radius:25px;
-}
- #menu ul  li:hover ul {
-left:0;
-}
- #menu li ul li {
-width:auto;
-font-size:20px;
-text-align:center;
-        }
- #menu li ul a {
-border:none;
-text-decoration:none;
-}
- #menu li ul a:hover {
-background:rgba(0,0,0,0.2);
+			
+			
+			
+					
+		/* Add a black background color to the top navigation */
+.topnav {
+  
+  overflow: hidden;
 }
 
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  display: block;
+  color:#666;
+  text-align: center;
+  padding: 20px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  font-family: 'Playball', cursive;
+}
+
+/* Hide the link that should open and close the topnav on small screens */
+.topnav .icon {
+  display: none;
+}
+
+/* Dropdown container - needed to position the dropdown content */
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+/* Style the dropdown button to fit inside the topnav */
+.dropdown .dropbtn {
+  font-size: 25px;
+  border: none;
+  outline: none;
+  color:#666;
+  padding: 20px 16px;
+  background-color: inherit;
+  font-family: 'Playball', cursive;
+  margin: 0;
+}
+
+/* Style the dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Style the links inside the dropdown */
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+/* Add a dark background on topnav links and the dropdown button on hover */
+.topnav a:hover, .dropdown:hover .dropbtn {
+  background-color: #555;
+  color: white;
+}
+
+/* Add a grey background to dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Show the dropdown menu when the user moves the mouse over the dropdown button */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
 
  #content{
 	 width:100%;
@@ -142,6 +144,7 @@ background:rgba(0,0,0,0.2);
 	 height:200px;
 	 
 		}
+		
  #resim{
 	 width:auto;
 	 height:100px;
@@ -320,40 +323,6 @@ background:rgba(0,0,0,0.2);
  #pdf img{
 	 border-radius:15px;
  }
- @media (max-width:1320px){
-	   #menu label{
-	 display:block;
-	 float:inherit;
- }
- .menu{
-	 position:absolute;
-	 background-color:#366;
-	 width:100%;
-	 height:225px;
-	 color:#CCC;
-	 margin-top:-100%;
-	 transition:all 0.5s;
- }
- .menu ul{
-	 display:flex;
-	 flex-direction:column; /*internetten alıntı*/
-	 
-	  }
- .menu ul li ul{
-	 display:inherit;	
- }
- .menu li:hover ul{
-	 display:none;
- }
- #menu ul  li a{
-    display:block;
-	border-bottom:0;	
-}
- #res-menu:checked ~ .menu{
-	 /*internetten alıntı*/
-	 margin:0px;
- }
-	 }
  
 @media (max-width:768px)
 {	
@@ -377,53 +346,9 @@ background:rgba(0,0,0,0.2);
 	 font-size:25px;
          }
  
- #menu{
-	 position:relative;
-	 width:100%;
-	 color:#CCC;
-	 margin-left:auto;
-	 margin-right:auto;
- }
- .menu{
-	 width:auto;
-	 position:relative;
-	 margin-left:auto;
-	 margin-right:auto;
- }
  
  
-   #menu label{
-	 display:block;
-	 float:inherit;
- }
- .menu{
-	 position:absolute;
-	 background-color:#366;
-	 width:100%;
-	 height:225px;
-	 color:#CCC;
-	 margin-top:-100%;
-	 transition:all 0.5s;
- }
- .menu ul{
-	 display:flex;
-	 flex-direction:column; /*internetten alıntı*/
-	 
-	  }
- .menu ul li ul{
-	 display:inherit;	
- }
- .menu li:hover ul{
-	 display:none;
- }
- #menu ul  li a{
-    display:block;
-	border-bottom:0;	
-}
- #res-menu:checked ~ .menu{
-	 /*internetten alıntı*/
-	 margin:0px;
- }
+ 
  #content{
 	 width:100%;
 	 padding-top:35px;
@@ -523,41 +448,43 @@ background:rgba(0,0,0,0.2);
 	  float:left;
 	  padding:40px;
 	  }	
-  #menu label{
-	 display:block;
-	 float:inherit;
- }
- .menu{
-	 position:absolute;
-	 background-color:#366;
-	 width:100%;
-	 height:225px;
-	 color:#CCC;
-	 margin-top:-100%;
-	 transition:all 0.5s;
- }
- .menu ul{
-	 display:flex;
-	 flex-direction:column; /*internetten alıntı*/
-	 
-	  }
- .menu ul li ul{
-	 display:inherit;	
- }
- .menu li:hover ul{
-	 display:none;
- }
- #menu ul  li a{
-    display:block;
-	border-bottom:0;	
+
+   .topnav{
+	   background-image:url(paper-1468878_1920.jpg);
+   }
+
+/* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
+
+  .topnav a:not(:first-child), .dropdown .dropbtn {
+    display: none;
+  }
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+
+
+/* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
+
+  .topnav.responsive {position: relative;}
+  .topnav.responsive a.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  .topnav.responsive .dropdown {float: none;}
+  .topnav.responsive .dropdown-content {position: relative;}
+  .topnav.responsive .dropdown .dropbtn {
+    display: block;
+    width: 100%;
+    text-align: left;
+  }
 }
- #res-menu:checked ~ .menu{
-	 /*internetten alıntı*/
-	 margin:0px;
- }
-}
-		
-		
 		
 		
 		
