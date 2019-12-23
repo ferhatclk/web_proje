@@ -320,9 +320,9 @@ background:rgba(0,0,0,0.2);
  #pdf img{
 	 border-radius:15px;
  }
- }
-@media (max-width:768px){
-	/*  tablet  */
+ 
+@media (max-width:768px)
+{	
  #header{
 	 width:100%;
 	 height:300px;
@@ -350,6 +350,14 @@ background:rgba(0,0,0,0.2);
 	 margin-left:auto;
 	 margin-right:auto;
  }
+ .menu{
+	 width:auto;
+	 position:relative;
+	 margin-left:auto;
+	 margin-right:auto;
+ }
+ 
+ 
  /*#menu ul{
 	 float:left;
 	 display:flex;
@@ -373,7 +381,7 @@ background:rgba(0,0,0,0.2);
 	  }
   #haberler {
 	 width:20%;
-	 height:900px;
+	 height:auto;
 	 float:left;
             }
  #haberler h3{
@@ -398,7 +406,7 @@ background:rgba(0,0,0,0.2);
 		}
  #resim img{
 	 width:auto; 
-	 height:100px;
+	 height:auto;
 	  padding-top:25px;
 		}
  #yazi{
@@ -412,7 +420,7 @@ background:rgba(0,0,0,0.2);
 	 }
  #duyurular {
 	width:20%;
-	height:900px;
+	height:auto;
 	float:right;
 	}	
   #kutu {
