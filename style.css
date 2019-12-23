@@ -320,6 +320,40 @@ background:rgba(0,0,0,0.2);
  #pdf img{
 	 border-radius:15px;
  }
+ @media (max-width:1320px){
+	   #menu label{
+	 display:block;
+	 float:inherit;
+ }
+ .menu{
+	 position:absolute;
+	 background-color:#366;
+	 width:100%;
+	 height:225px;
+	 color:#CCC;
+	 margin-top:-100%;
+	 transition:all 0.5s;
+ }
+ .menu ul{
+	 display:flex;
+	 flex-direction:column; /*internetten alıntı*/
+	 
+	  }
+ .menu ul li ul{
+	 display:inherit;	
+ }
+ .menu li:hover ul{
+	 display:none;
+ }
+ #menu ul  li a{
+    display:block;
+	border-bottom:0;	
+}
+ #res-menu:checked ~ .menu{
+	 /*internetten alıntı*/
+	 margin:0px;
+ }
+	 }
  
 @media (max-width:768px)
 {	
@@ -358,23 +392,38 @@ background:rgba(0,0,0,0.2);
  }
  
  
- /*#menu ul{
-	 float:left;
+   #menu label{
+	 display:block;
+	 float:inherit;
+ }
+ .menu{
+	 position:absolute;
+	 background-color:#366;
+	 width:100%;
+	 height:225px;
+	 color:#CCC;
+	 margin-top:-100%;
+	 transition:all 0.5s;
+ }
+ .menu ul{
 	 display:flex;
-	 flex-direction:column; /*internetten alıntı
+	 flex-direction:column; /*internetten alıntı*/
 	 
 	  }
  .menu ul li ul{
-	 
+	 display:inherit;	
+ }
+ .menu li:hover ul{
+	 display:none;
  }
  #menu ul  li a{
     display:block;
 	border-bottom:0;	
 }
  #res-menu:checked ~ .menu{
-	 /*internetten alıntı
+	 /*internetten alıntı*/
 	 margin:0px;
- }*/
+ }
  #content{
 	 width:100%;
 	 padding-top:35px;
